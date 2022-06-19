@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #dddada;
+
+}
+
+header {
+    background-color: rgb(39, 41, 39);
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    padding: 30px;
+}
+
+.formulario {
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+fieldset {
+   display: block;
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+label {
+    padding: 10px;
+    font-size: 15px;
+}
+
+legend {
+    padding: 5px;
+    border-radius: 5px; 
+    font-weight: bold;
+}
+
+#nome , #sobrenome, #email, #telefone, #rua, #bairro, #complemento, #cidade, #estado,
+#CEP {
+    margin: 3px;
+    
+}
+
+#submit {
+  text-align: center;
+}
+
+.botao {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+
+.botao:hover {
+    background-color: rgb(147, 255, 196);
+    transform: scale(1.2);
+}
+
+#textarea {
+    text-align: center;
+}
+
+textarea {
+    resize: none; 
+    align-self: center;
+
+    
+}
+
+fieldset , legend {
+    background-color: rgb(118, 148, 138);
+}
+
+ .formmensagem {
+    margin: 0px auto;
+    width: 100%;
+
+}
+
+footer {
+    background-color: rgb(39, 41, 39);
+    height: 90px;
+    
+}
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+    }
+
+    .formulario {
+        width: auto;
+    }
+
+    .formmensagem {
+        margin: auto;
+        width: auto;
+    }
+}
