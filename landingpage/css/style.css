@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilda Display', serif;
+}
+
+body {
+    background-color: #f9e8ee;
+}
+
+header {
+    background-color: white;
+    font-family: 'Marcellus', serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ea4875;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imgsapatilha {
+    width: 300px;
+}
+
+.sapatilhabox {
+    background-color: #ecacbc;
+    border-radius: 60px 60px 60px 10px;
+    height: 350px;
+    width: 550px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 30px #ea4875;
+
+    
+    
+}
+
+.sapatilhadesc {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    margin: 0 40px;
+
+   
+}
+
+.sapatilhadesc strong {
+    color: #ea4875;
+    text-shadow: 2px 3px 5px #f3618a;
+   
+}
+
+.beneficiosbox {
+    background-color: #f0a0bd;
+    
+}
+
+.beneficios {
+    display: flex;
+    width: auto;
+    height: 450px;
+    padding: 50px;
+    justify-content: space-around;
+   
+}
+
+ h1 {
+    font-size:  35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.beneficiotitulo {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    border-bottom: 1px solid #ffcbd8;
+   
+}
+
+.b1 ,.b2, .b3 {
+    border: 2px solid #fff;
+    width: 350px;
+    box-shadow: 4px 4px 20px  #ea4875;
+
+}
+
+.bdesc {
+    text-align: center;
+    padding: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+button:hover {
+    background-color: #f06a90;
+    border: 1px solid #b63464;
+}
+
+.b1:hover, .b2:hover, .b3:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px  #f7b2c5;
+    transition: 3s;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width:699px) {
+    header {
+        width: 100%; 
+    }
+
+    .box1 {
+        display: inline;
+    }
+
+    .imgsapatilha {
+        width: 200px;
+        margin-left: 260px;
+
+    }
+  
+    .sapatilhabox {
+        margin-left: 50px;
+    }
+
+    .beneficios {
+        display: inline;
+        align-content: center;
+    
+    }
+
+    .b1, .b2, .b3 {
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .bdesc {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+
+    .sapatilhadesc {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:600px){
+    header {
+       width: 100%;
+       font-size: 30px;
+    }
+
+    .box1 {
+        display: inline;
+        
+    }
+
+    .imgsapatilha {
+        width: 200px;
+        margin-left: 76px;
+
+    }
+
+    .sapatilhabox {
+        height: 300px;
+        width: 350px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 10px;
+    }
+
+    .sapatilhadesc {
+        font-size: 17px;
+    }
+
+    button {
+        width: 200px;
+    }
+
+    .beneficios {
+        display: inline;
+        align-content: center;
+    
+    }
+
+    .b1, .b2, .b3 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
